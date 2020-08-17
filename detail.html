@@ -5,14 +5,25 @@
     <title>Detail</title>
   </head>
   <body>
+    <form action="Payment.html" method="get">
+
+
     <header>
+      <a href="index.html">
         <img src="assests\images\logo.png" alt="logo" height="100px" width="100px">
+      </a>
         <a href="login.html" target="_blank">Login</a>
     </header>
     <section>
       <div>
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Blu-hotel"><br>
-        <a href="payment.html">Book Now</a>
+        <span>Adults:</span><input type="number" name="Adults" value="" min="1" max="100"><br>
+        <span>Name:</span><input type="text" name="name" value="" required><br>
+        <span>From Date:</span><input type="date" name="check-in" value="" required><br>
+        <span>To Date:</span><input type="date" name="check-out" value="" required><br>
+        <span>Total:</span><input type="text" name="price" value="" readonly><br>
+        <input type="submit" name="Book Now" value="Book Now"><br>
+
         <h3><strong>Radison Blu Hotel</strong></h3>
         <h5>RATING</h5>
         <p>5 star</p>
@@ -30,7 +41,7 @@
     </section>
     <footer>
       <div class="">
-        <a href="contact.html" target="_blank">Contact Us</a>
+        <a href="contact.html" target="_self">Contact Us</a>
       </div>
       <div>
         <a href="https://www.facebook.com/" target="_blank">
@@ -45,5 +56,6 @@
     </div>
         <span>&copy; 2020 ROOM SERACH PVT.LTD</span>
   </footer>
+    </form>
   </body>
 </html>
