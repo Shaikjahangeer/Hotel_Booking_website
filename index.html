@@ -3,30 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>Index</title>
+    <style>
+      body,html{
+        height: 100%;
+        width:100%;
+      }
+      div.header img{
+        height:60px;
+        width:60px;
+        border-radius: 5px;
+      }
+      div.hotels img{
+        height: 150px;
+        width: 150px;
+      }
+      div.social_meadia img{
+        height: 20px;
+        width: 22px;
+      }
+    </style>
   </head>
   <body>
+
     <header>
-        <img src="assests\images\logo.png" alt="logo" height="100px" width="100px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="header">
+        <img id="logo" src="assests\images\logo.png" alt="logo">
         <a href="login.html" target="_self">Login</a>
+      </div>
     </header>
-    <section>
+
+    <section class="section">
     <input type="text" name="search" placeholder="City"><br>
-    <a href="list.html" target="_self">
-      <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi" height="300px" width="300px">
-    </a>
-      <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa" height="300px" width="300px">
-      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hyderabad" height="300px" width="300px">
-      <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="Delhi" height="300px" width="300px">
-      <br>
-      <a href="index.html" target="_self">view more>></a>
-    </section>
+    <div class="hotels">
+      <a href="list.html" target="_self">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi">
+      </a>
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hyderabad">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="Delhi">
+        <br>
+        <a href="index.html" target="_self">view more>></a>
+      </div>
+        </section>
+
     <footer>
       <div class="">
         <a href="contact.html" target="_self">Contact Us</a>
 
       </div>
-      <div>
+      <div class="social_meadia">
         <a href="https://www.facebook.com/" target="_blank">
         <img src="assests/images/facebook.png" alt="Facebook" height="20px" width="20px">
         </a>

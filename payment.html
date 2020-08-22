@@ -3,18 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Payment</title>
+    <style>
+      body,html{
+        height: 100%;
+        width:100%;
+      }
+      div.header img{
+        height:60px;
+        width:60px;
+        border-radius: 10px;
+      }
+      div.social_meadia img{
+        height: 20px;
+        width: 22px;
+      }
+      div.content img{
+        height: 500px;
+        width: 500px;
+      }
+    </style>
   </head>
   <body>
     <header>
+      <div class="header">
         <a href="index.html">
-        <img src="assests\images\logo.png" alt="logo" height="100px" width="100px">
+        <img id="logo" src="assests\images\logo.png" alt="logo">
         </a>
-        <a href="login.html" target="_blank">Login</a>
+        <a href="login.html" target="_self">Login</a>
+      </div>
     </header>
+
     <section>
-      <div>
+      <div class="content">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Blu-hotel">
-        <p>Radison Blu Hotel</p>
+        <h3>Radison Blu Hotel</h3>
         <p>#38 of 129 in New Delhi</p>
         <p>National Highway 8, New Delhi 110017 India</p>
       </div>
@@ -29,12 +51,13 @@
     </div>
 
     </section>
-      <footer>
+
+    <footer>
       <div class="">
         <a href="contact.html" target="_self">Contact Us</a>
-
       </div>
-      <div>
+
+      <div class="social_meadia">
         <a href="https://www.facebook.com/" target="_blank">
         <img src="assests/images/facebook.png" alt="Facebook" height="20px" width="20px">
         </a>
@@ -44,9 +67,9 @@
         <a href="https://www.twitter.com/" target="_blank">
         <img src="assests/images/twitter.png" alt="twitter" height="20px" width="20px">
       </a>
-    </div>
+      </div>
         <span>&copy; 2020 ROOM SERACH PVT.LTD</span>
-  </footer>
+      </footer>
 
   </body>
 </html>
