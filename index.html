@@ -2,55 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Index</title>
-    <style>
-      body,html{
-        height: 100%;
-        width:100%;
-        margin:0px;
-        background-color: #e0e0e0;
-      }
-      header{
-          background-color: rosybrown;
-      }
-      footer{
-        background-color: rosybrown;
-      }
-      .search{
-        background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
-        background-size: cover;
-        height: 380px;
-        background-position: center;
-
-      }
-      .hotels{
-        margin-left: 15%;
-        margin-right: 15%;
-        padding: 4%;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-      }
-
-      div.header img{
-        height:60px;
-        width:60px;
-        border-radius: 5px;
-      }
-      div.hotels img{
-        height: 150px;
-        width: 150px;
-        border-radius: 10%;
-      }
-      div.social_meadia img{
-        height: 20px;
-        width: 22px;
-      }
-    </style>
   </head>
   <body>
+    <style media="screen">
+    body,html{
+      height: 100%;
+      width:100%;
+      margin:0px;
+      background-color: #e0e0e0;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+
+
+
+    </style>
 
     <header>
       <div class="header">
@@ -61,7 +36,7 @@
 
     <section class="section">
     <div class="search">
-      <input type="text" name="search" placeholder="City" autocomplete="off"><br>
+      <input id ="search" type="text" name="search" placeholder="City" autocomplete="off"><br>
     </div>
     <div class="hotels">
       <a href="list.html" target="_self">
@@ -73,15 +48,15 @@
         <br>
     </div>
       <div class="view_more">
-          <a href="index.html" target="_self">view more>></a>
+          <center><a href="index.html" target="_self">view more>></a></center>
       </div>
         </section>
 
-    <footer>
-      <div class="">
+    <footer class="footer">
+      <div class="contact">
         <a href="contact.html" target="_self">Contact Us</a>
-
       </div>
+        <span style="font-size:10px;">&copy; 2020 ROOM SERACH PVT.LTD</span>
       <div class="social_meadia">
         <a href="https://www.facebook.com/" target="_blank">
         <img src="assests/images/facebook.png" alt="Facebook" height="20px" width="20px">
@@ -93,7 +68,7 @@
         <img src="assests/images/twitter.png" alt="twitter" height="20px" width="20px">
       </a>
     </div>
-        <span>&copy; 2020 ROOM SERACH PVT.LTD</span>
+
   </footer>
   </body>
 </html>

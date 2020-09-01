@@ -1,0 +1,49 @@
+<style media="screen">
+body,html{
+  height: 100%;
+  width:100%;
+  margin: 0px;
+  background-color: #e0e0e0;
+}
+header{
+      background-color: rosybrown;
+      top:0;
+      width: 100%;
+      position: sticky;
+}
+footer{
+  background-color: rosybrown;
+    bottom: 0;
+    width: 100%;
+    position: sticky;
+}
+div.header img{
+  height:60px;
+  width:60px;
+  border-radius: 5px;
+}
+div.social_meadia img{
+  height: 20px;
+  width: 22px;
+}
+div.content img{
+  height: 500px;
+  width: 500px;
+}
+.content{
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+footer{
+  height:10%;
+  display: flex;
+  padding-left: 10px;
+  margin-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+
+}
+</style>

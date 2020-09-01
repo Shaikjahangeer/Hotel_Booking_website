@@ -1,0 +1,89 @@
+<style media="screen">
+
+  body,html{
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  header{
+        background-color: rosybrown;
+        top:0;
+        width: 100%;
+        position: sticky;
+
+
+  }
+  .contact a{
+    text-decoration: none;
+    color: black;
+  }
+  .social_meadia{
+    margin-right: 20px;
+
+  }
+
+
+
+  footer{
+    background-color: rosybrown;
+      bottom: 0;
+      width: 100%;
+      position: sticky;
+  }
+  .hotels{
+    margin: 2%;
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+    display: inline-block;
+  }
+
+  div.header img{
+    height:60px;
+    width:60px;
+    border-radius: 5px;
+  }
+  div.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .list {
+    text-align: center;
+}
+
+.list li {
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 50px;
+}
+  div.header a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    padding: 2px;
+    margin: 10px;
+  }
+  div.hotels img{
+    height: 200px;
+    width: 250px;
+  }
+  #map-view
+  {
+    display: none;
+  }
+  footer{
+    height:10%;
+    display: flex;
+    padding-left: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+
+  }
+</style>
